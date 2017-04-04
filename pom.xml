@@ -10,14 +10,14 @@
   </parent>
   <groupId>com.yqboots.showcase</groupId>
   <artifactId>yqboots-showcase</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>YQBoots Showcase</name>
   <description>Demo for features and pages in YQBoots</description>
 
   <properties>
     <java.version>1.8</java.version>
-    <yqboots.version>1.2.0</yqboots.version>
+    <yqboots.version>1.3.0</yqboots.version>
     <site.url>https://github.com/zhanhongbo1112</site.url>
   </properties>
 
