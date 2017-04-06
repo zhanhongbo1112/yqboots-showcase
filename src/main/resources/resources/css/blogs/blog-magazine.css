@@ -40,6 +40,18 @@
     background: #3498db;
 }
 
+.magazine-page span.magazine-badge-yellow {
+    background: #f1c40f;
+}
+
+.magazine-page span.magazine-badge-purple {
+    background: #9b6bcc;
+}
+
+.magazine-page span.magazine-badge-dark-blue {
+    background: #4765a0;
+}
+
 /*Magazine News*/
 .magazine-news {
     margin-bottom: 20px;
