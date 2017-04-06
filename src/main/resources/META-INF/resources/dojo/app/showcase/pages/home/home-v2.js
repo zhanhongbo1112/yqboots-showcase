@@ -1,5 +1,5 @@
 define(['jquery/wow-animations/wow', 'jquery/parallax', 'jquery/fancybox/fancybox',
-    'jquery/owl-carousel/owl-carousel', 'jquery/backstretch/backstretch'], function () {
+    'jquery/owl-carousel/owl-carousel'], function () {
     return {
         startup: function () {
             new WOW().init();
@@ -25,11 +25,6 @@ define(['jquery/wow-animations/wow', 'jquery/parallax', 'jquery/fancybox/fancybo
                 itemsTablet: [600, 1],
                 itemsMobile: [479, 1]
             });
-
-            $(".fullscreen-static-image").backstretch([
-                "/images/bg/bg_1920x1280.jpg",
-                "/images/bg/bg_1920x1280.jpg"
-            ]);
         }
     }
 });
