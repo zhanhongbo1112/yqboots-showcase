@@ -1024,8 +1024,13 @@ public class ShowcaseController {
         return "showcase/blogs/v11/index";
     }
 
-    @RequestMapping(value = "/home/home-v1")
+    @RequestMapping(value = "/pages/home/home-v1")
     public String home_v1() {
-        return "showcase/home/home-v1";
+        return "showcase/pages/home/home-v1";
+    }
+
+    @RequestMapping(value = "/pages/home/home-v2")
+    public String home_v2() {
+        return "showcase/pages/home/home-v2";
     }
 }
