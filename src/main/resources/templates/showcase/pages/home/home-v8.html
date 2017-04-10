@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns="http://www.w3.org/1999/xhtml" layout:decorator="layouts/v01/layout">
+<head>
+  <title>Discover</title>
+  <link rel="stylesheet" th:href="@{/theme/css/plugins/owl-carousel/owl.carousel.css}"/>
+  <link rel="stylesheet" th:href="@{/theme/css/blocks/headlines.css}"/>
+  <link rel="stylesheet" th:href="@{/theme/css/blocks/content-boxes.css}"/>
+  <link rel="stylesheet" th:href="@{/theme/css/blocks/easy-blocks.css}"/>
+  <link rel="stylesheet" th:href="@{/theme/css/blocks/block-grids.css}"/>
+  <link rel="stylesheet" th:href="@{/theme/css/blocks/testimonials.css}"/>
+  <link rel="stylesheet" th:href="@{/theme/css/blocks/counters.css}"/>
+  <link rel="stylesheet" th:href="@{/css/blocks/parallax-counter-v2.css}"/>
+  <link rel="stylesheet" th:href="@{/css/pages/search-v3.css}"/>
+</head>
+<body>
+<div layout:fragment="content">
+  <!--=== Search Block ===-->
+  <div class="search-block parallaxBg">
+    <div class="container">
+      <div class="col-md-6 col-md-offset-3">
+        <h1>Discover <span class="color-green">new</span> things</h1>
+
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search words with regular expressions ..."/>
+          <span class="input-group-btn">
+            <button class="btn-u btn-u-lg" type="button"><i class="fa fa-search"></i></button>
+          </span>
+        </div>
+
+        <form action="" class="sky-form page-search-form">
+          <div class="inline-group">
+            <label class="checkbox"><input type="checkbox" name="checkbox-inline"
+                                           checked="checked"/><i></i>Recent</label>
+            <label class="checkbox"><input type="checkbox" name="checkbox-inline"/><i></i>Related</label>
+            <label class="checkbox"><input type="checkbox" name="checkbox-inline"/><i></i>Popular</label>
+            <label class="checkbox"><input type="checkbox" name="checkbox-inline"/><i></i>Most Common</label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div><!--/container-->
+  <!--=== End Search Block ===-->
+
+  <!--=== Content ===-->
+  <div class="container content">
+    <!-- Top Categories -->
+    <div class="headline"><h2>Top Categories</h2></div>
+    <div class="row category margin-bottom-20">
+      <!-- Info Blocks -->
+      <div class="col-md-4 col-sm-6">
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-sea icon-line icon-badge"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Top 100 templates</a></h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-red fa fa-hdd-o"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Wikipedia</a>
+              <small>(10837)</small>
+            </h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-brown fa fa-desktop"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Web design</a>
+              <small>(462)</small>
+            </h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-green icon-line icon-graduation"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Education</a>
+              <small>(396)</small>
+            </h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-dark fa fa-film"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Filmography</a>
+              <small>(156)</small>
+            </h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+      </div>
+      <!-- End Info Blocks -->
+
+      <!-- Info Blocks -->
+      <div class="col-md-4 col-sm-6 md-margin-bottom-40">
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-blue fa fa-bell-o"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Hi-Tech</a>
+              <small>(324)</small>
+            </h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-yellow fa fa-thumbs-o-up"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Programming</a>
+              <small>(4053)</small>
+            </h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-aqua icon-line icon-playlist"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Music</a>
+              <small>(268)</small>
+            </h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-purple fa fa-lightbulb-o"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Engineering</a>
+              <small>(703)</small>
+            </h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+        <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+          <i class="icon-custom icon-sm rounded-x icon-bg-orange fa fa-area-chart"></i>
+          <div class="content-boxes-in-v3">
+            <h3><a href="#"> Others</a>
+              <small>(1296)</small>
+            </h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+      </div>
+      <!-- End Info Blocks -->
+
+      <!-- Begin Section-Block -->
+      <div class="col-md-4 col-sm-12">
+        <div class="section-block">
+          <div class="text-center">
+            <i class="rounded icon-custom icon-sm icon-bg-darker line-icon icon-graph"></i>
+            <h2>Popular Search</h2>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis. <a href="#">View more</a></p>
+          </div>
+
+          <br/>
+
+          <!-- Progress Bar -->
+          <h3 class="heading-xs no-top-space">Web Design <span class="pull-right">88%</span></h3>
+          <div class="progress progress-u progress-xxs">
+            <div style="width: 88%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="88" role="progressbar"
+                 class="progress-bar progress-bar-u">
+            </div>
+          </div>
+
+          <h3 class="heading-xs no-top-space">PHP/WordPress <span class="pull-right">76%</span></h3>
+          <div class="progress progress-u progress-xxs">
+            <div style="width: 76%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="76" role="progressbar"
+                 class="progress-bar progress-bar-u">
+            </div>
+          </div>
+
+          <h3 class="heading-xs no-top-space">HTML/CSS <span class="pull-right">97%</span></h3>
+          <div class="progress progress-u progress-xxs">
+            <div style="width: 97%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="97" role="progressbar"
+                 class="progress-bar progress-bar-u">
+            </div>
+          </div>
+          <!-- End Progress Bar -->
+
+          <div class="clearfix"></div>
+
+          <div class="section-block-info">
+            <ul class="list-inline tags-v1">
+              <li><a href="#">#HTML5</a></li>
+              <li><a href="#">#Bootstrap</a></li>
+              <li><a href="#">#Blog and Portfolio</a></li>
+              <li><a href="#">#Responsive</a></li>
+              <li><a href="#">#Unify</a></li>
+              <li><a href="#">#JavaScript</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Section-Block -->
+    </div>
+    <!-- End Top Categories -->
+  </div><!--/container-->
+  <!--=== End Content ===-->
+
+  <!--=== Parallax Counter ===-->
+  <div class="parallax-counter-v2 parallaxBg1">
+    <div class="container">
+      <ul class="row list-row">
+        <li class="col-md-3 col-sm-6 col-xs-12 md-margin-bottom-30">
+          <div class="counters rounded">
+            <span class="counter">18298</span>
+            <h4>Web Developers</h4>
+          </div>
+        </li>
+        <li class="col-md-3 col-sm-6 col-xs-12 md-margin-bottom-30">
+          <div class="counters rounded">
+            <span class="counter">24583</span>
+            <h4>Designers</h4>
+          </div>
+        </li>
+        <li class="col-md-3 col-sm-6 col-xs-12 sm-margin-bottom-30">
+          <div class="counters rounded">
+            <span class="counter">37904</span>
+            <h4>Open Contests</h4>
+          </div>
+        </li>
+        <li class="col-md-3 col-sm-6 col-xs-12">
+          <div class="counters rounded">
+            <span class="counter">50892</span>
+            <h4>Happy Customors</h4>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--=== End Parallax Counter ===-->
+
+  <!--=== Container Part ===-->
+  <div class="container content-md">
+    <ul class="row block-grid-v2">
+      <li class="col-md-4 col-sm-6 md-margin-bottom-30">
+        <div class="easy-block-v1">
+          <img class="img-responsive" th:src="@{/images/img_500x325.jpg}"/>
+          <div class="easy-block-v1-badge rgba-purple">Unify Template</div>
+        </div>
+        <div class="block-grid-v2-info rounded-bottom">
+          <h3><a href="#">One Page Template</a></h3>
+          <p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+          <ul class="list-inline star-vote">
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star-half-o"></i></li>
+          </ul>
+        </div>
+      </li>
+      <li class="col-md-4 col-sm-6 md-margin-bottom-30">
+        <div class="easy-block-v1">
+          <img class="img-responsive" th:src="@{/images/img_500x325.jpg}"/>
+          <div class="easy-block-v1-badge rgba-blue">Graphic Design</div>
+        </div>
+        <div class="block-grid-v2-info rounded-bottom">
+          <h3><a href="#">Mockup Design</a></h3>
+          <p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+          <ul class="list-inline star-vote">
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star-half-o"></i></li>
+            <li><i class="color-green fa fa-star-o"></i></li>
+          </ul>
+        </div>
+      </li>
+      <li class="col-md-4 col-sm-12">
+        <div class="easy-block-v1">
+          <img class="img-responsive" th:src="@{/images/img_500x325.jpg}"/>
+          <div class="easy-block-v1-badge rgba-red">Web Development</div>
+        </div>
+        <div class="block-grid-v2-info rounded-bottom">
+          <h3><a href="#">HTML5/CSS3 + PHP</a></h3>
+          <p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+          <ul class="list-inline star-vote">
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star"></i></li>
+            <li><i class="color-green fa fa-star-o"></i></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div><!--/container-->
+  <!--=== Container Part ===-->
+
+  <!--=== Container Part ===-->
+  <div class="bg-grey">
+    <div class="container content-md">
+      <ul class="row list-row margin-bottom-30">
+        <li class="col-md-4 md-margin-bottom-30">
+          <div class="content-boxes-v3 block-grid-v1 rounded">
+            <img class="pull-left rounded-x block-grid-v1-img" th:src="@{/images/user.jpg}"/>
+            <div class="content-boxes-in-v3">
+              <h3><a href="#">Forbes 1000</a></h3>
+              <ul class="star-vote">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star-half-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+              </ul>
+              <ul class="list-inline margin-bottom-5">
+                <li>By <a class="color-green" href="#">Edward Rooster</a></li>
+                <li><i class="fa fa-clock-o"></i> Oct 07, 2014</li>
+              </ul>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium...</p>
+              <ul class="list-inline block-grid-v1-add-info">
+                <li><a href="#"><i class="fa fa-eye"></i> 34039</a></li>
+                <li><a href="#"><i class="fa fa-retweet"></i> 451</a></li>
+                <li><a href="#"><i class="fa fa-download"></i> 10842</a></li>
+                <li><a href="#"><i class="fa fa-heart"></i> 863</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="col-md-4 md-margin-bottom-30">
+          <div class="content-boxes-v3 block-grid-v1 rounded">
+            <i class="icon-custom icon-sm rounded-x icon-bg-red fa fa-line-chart"></i>
+            <div class="content-boxes-in-v3">
+              <h3><a href="#">Business &amp; Finance</a></h3>
+              <ul class="star-vote">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star-half-o"></i></li>
+              </ul>
+              <ul class="list-inline margin-bottom-5">
+                <li>By <a class="color-green" href="#">The Economist</a></li>
+                <li><i class="fa fa-clock-o"></i> Oct 02, 2014</li>
+              </ul>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium...</p>
+              <ul class="list-inline block-grid-v1-add-info">
+                <li><a href="#"><i class="fa fa-eye"></i> 4258</a></li>
+                <li><a href="#"><i class="fa fa-retweet"></i> 382</a></li>
+                <li><a href="#"><i class="fa fa-download"></i> 2938</a></li>
+                <li><a href="#"><i class="fa fa-heart"></i> 230</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="col-md-4">
+          <div class="content-boxes-v3 block-grid-v1 rounded">
+            <img class="rounded-x pull-left block-grid-v1-img" th:src="@{/images/user.jpg}"/>
+            <div class="content-boxes-in-v3">
+              <h3><a href="#">Web Programming</a></h3>
+              <ul class="star-vote">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star-half-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+              </ul>
+              <ul class="list-inline margin-bottom-5">
+                <li>By <a class="color-green" href="#">Edward Rooster</a></li>
+                <li><i class="fa fa-clock-o"></i> Jan 02, 2013</li>
+              </ul>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium...</p>
+              <ul class="list-inline block-grid-v1-add-info">
+                <li><a href="#"><i class="fa fa-eye"></i> 34039</a></li>
+                <li><a href="#"><i class="fa fa-retweet"></i> 451</a></li>
+                <li><a href="#"><i class="fa fa-download"></i> 10842</a></li>
+                <li><a href="#"><i class="fa fa-heart"></i> 863</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="row list-row">
+        <li class="col-md-4 md-margin-bottom-30">
+          <div class="content-boxes-v3 block-grid-v1 rounded">
+            <i class="icon-custom icon-sm rounded-x icon-bg-blue fa fa-twitter"></i>
+            <div class="content-boxes-in-v3">
+              <h3><a href="#">Social Network</a></h3>
+              <ul class="star-vote">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+              </ul>
+              <ul class="list-inline margin-bottom-5">
+                <li>By <a class="color-green" href="#">Twitter Inc.</a></li>
+                <li><i class="fa fa-clock-o"></i> Jan 02, 2013</li>
+              </ul>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium...</p>
+              <ul class="list-inline block-grid-v1-add-info">
+                <li><a href="#"><i class="fa fa-eye"></i> 25232</a></li>
+                <li><a href="#"><i class="fa fa-retweet"></i> 543</a></li>
+                <li><a href="#"><i class="fa fa-download"></i> 6782</a></li>
+                <li><a href="#"><i class="fa fa-heart"></i> 943</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="col-md-4 md-margin-bottom-30">
+          <div class="content-boxes-v3 block-grid-v1 rounded">
+            <img class="rounded-x pull-left block-grid-v1-img" th:src="@{/images/user.jpg}"/>
+            <div class="content-boxes-in-v3">
+              <h3><a href="#">Education/Travel</a></h3>
+              <ul class="star-vote">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star-half-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+              </ul>
+              <ul class="list-inline margin-bottom-5">
+                <li>By <a class="color-green" href="#">Stanford University</a></li>
+                <li><i class="fa fa-clock-o"></i> Jan 02, 2013</li>
+              </ul>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium...</p>
+              <ul class="list-inline block-grid-v1-add-info">
+                <li><a href="#"><i class="fa fa-eye"></i> 7653</a></li>
+                <li><a href="#"><i class="fa fa-retweet"></i> 342</a></li>
+                <li><a href="#"><i class="fa fa-download"></i> 3621</a></li>
+                <li><a href="#"><i class="fa fa-heart"></i> 583</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="col-md-4">
+          <div class="content-boxes-v3 block-grid-v1 rounded">
+            <i class="icon-custom icon-sm rounded-x icon-bg-purple fa fa-music"></i>
+            <div class="content-boxes-in-v3">
+              <h3><a href="#">Music/Films</a></h3>
+              <ul class="star-vote">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star-half-o"></i></li>
+              </ul>
+              <ul class="list-inline margin-bottom-5">
+                <li>By <a class="color-green" href="#">Sony Corporation</a></li>
+                <li><i class="fa fa-clock-o"></i> Jan 02, 2013</li>
+              </ul>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium...</p>
+              <ul class="list-inline block-grid-v1-add-info">
+                <li><a href="#"><i class="fa fa-eye"></i> 5263</a></li>
+                <li><a href="#"><i class="fa fa-retweet"></i> 741</a></li>
+                <li><a href="#"><i class="fa fa-download"></i> 21314</a></li>
+                <li><a href="#"><i class="fa fa-heart"></i> 1041</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!--=== Container Part ===-->
+  <div class="testimonials-v3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <ul class="list-unstyled owl-ts-v1">
+            <li class="item">
+              <img class="rounded-x img-bordered" th:src="@{/images/user.jpg}"/>
+              <div class="testimonials-v3-title">
+                <p>David Case</p>
+                <span>Web Developer, Google</span>
+              </div>
+              <p>I just wanted to tell you how much I like to use Unify - <strong>it's so sleek and elegant!</strong>
+                <br/>
+                The customisation options you implemented are countless, and I feel sorry I can't use them all. Good
+                job, and keep going!
+              </p>
+            </li>
+            <li class="item">
+              <img class="rounded-x img-bordered" th:src="@{/images/user.jpg}"/>
+              <div class="testimonials-v3-title">
+                <p>Tina Krueger</p>
+                <span>UI Designer, Apple</span>
+              </div>
+              <p>Keep up the great work. Your template is by far the best on the market in terms of features, quality
+                and value or money.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium..</p>
+            </li>
+            <li class="item">
+              <img class="rounded-x img-bordered" th:src="@{/images/user.jpg}"/>
+              <div class="testimonials-v3-title">
+                <p>John Clarck</p>
+                <span>Marketing &amp; Cunsulting, IBM</span>
+              </div>
+              <p>So far I really like the theme. I am looking forward to exploring more of your themes. Thank you! At
+                vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium...</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--=== Container Part ===-->
+</div>
+</body>
+</html>
