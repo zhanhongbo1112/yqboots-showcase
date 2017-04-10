@@ -1078,4 +1078,9 @@ public class ShowcaseController {
     public String home_v11() {
         return "showcase/pages/home/home-v11";
     }
+
+    @RequestMapping(value = "/pages/home/home-v12")
+    public String home_v12() {
+        return "showcase/pages/home/home-v12";
+    }
 }
